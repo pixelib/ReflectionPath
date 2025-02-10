@@ -8,6 +8,13 @@
   <name>ReflectionPath</name>
   <description>The easiest reflection util you'll ever use</description>
   <url>https://github.com/pixelib/ReflectionPath</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License v3.0</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
   <developers>
     <developer>
       <id>duckelekuuk</id>
