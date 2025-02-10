@@ -63,11 +63,6 @@
             <goals>
               <goal>report</goal>
             </goals>
-            <configuration>
-              <formats>
-                <format>JSON</format>
-              </formats>
-            </configuration>
           </execution>
         </executions>
       </plugin>
