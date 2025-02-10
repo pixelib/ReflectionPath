@@ -19,7 +19,6 @@ It supports both traditional dot-notation and type-based path expressions for ac
 - Superclass member resolution
 
 ## Usage
-
 ### Basic Examples
 
 ```java
@@ -76,6 +75,39 @@ ReflectionPath provides clear error messages for common scenarios:
 - Null targets
 - Access violations
 - Resolution strategy conflicts
+
+## Example flow
+
+```mermaid
+graph TD
+    A[ReflectionPath] --> B{Path Type}
+    B -->|Name-based| C[Dot Notation]
+    B -->|Type-based| D[Square Bracket]
+
+    C --> E[person.address.city]
+    D --> F["[Player].[ConnectionType]"]
+
+    E --> G[Field Access]
+    E --> H[Method Call]
+    F --> I{Resolution Strategy}
+
+    I -->|FIRST_MATCH| J[Return First Match]
+    I -->|LAST_MATCH| K[Return Last Match]
+    I -->|EXACT_MATCH| L[Single Match Required]
+
+    G --> M[Cache Result]
+    H --> M
+    J --> M
+    K --> M
+    L --> M
+
+    M --> N[Return Value]
+
+    style A fill:#f9f,stroke:#333
+    style B fill:#bbf,stroke:#333
+    style I fill:#bbf,stroke:#333
+```
+The diagram illustrates ReflectionPath's core functionality for accessing object members through reflection. It shows two main path resolution approaches: name-based using dot notation (e.g., person.address.city) and type-based using square brackets (e.g., [Player].[ConnectionType]). Both approaches lead to either field access or method calls, with type-based resolution offering three strategies: FIRST_MATCH, LAST_MATCH, and EXACT_MATCH. All results are cached before being returned to improve performance.
 
 ## Installation
 
