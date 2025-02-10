@@ -1,3 +1,5 @@
+![logo](.github/assets/logo.svg)
+
 # ReflectionPath ![branches](.github/badges/branches.svg) ![jacoco coverage](.github/badges/jacoco.svg)
 
 ReflectionPath is a Java utility that provides type-safe reflection capabilities using intuitive path expressions.

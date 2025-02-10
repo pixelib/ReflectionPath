@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>dev.pixelib</groupId>
-  <artifactId>reflectionpath</artifactId>
+  <artifactId>reflection-path</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>ReflectionPath</name>
   <description>The easiest reflection util you'll ever use</description>
@@ -63,6 +63,11 @@
             <goals>
               <goal>report</goal>
             </goals>
+            <configuration>
+              <formats>
+                <format>JSON</format>
+              </formats>
+            </configuration>
           </execution>
         </executions>
       </plugin>

@@ -1,0 +1,68 @@
+<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Enhanced Gradient -->
+        <linearGradient id="pathGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#2E7D32"/>
+            <stop offset="50%" style="stop-color:#4CAF50"/>
+            <stop offset="100%" style="stop-color:#2E7D32"/>
+        </linearGradient>
+
+        <!-- Glow Effect -->
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+
+        <!-- Pulse Animation -->
+        <animate id="pulseAnim"
+                 attributeName="r"
+                 values="6;8;6"
+                 dur="2s"
+                 repeatCount="indefinite"/>
+    </defs>
+
+    <!-- Stylized Path -->
+    <path d="M10,50 Q80,20 150,50 T290,50"
+          stroke="url(#pathGradient)"
+          stroke-width="4"
+          fill="none"
+          stroke-linecap="round"
+          filter="url(#glow)">
+        <animate attributeName="d"
+                 dur="4s"
+                 repeatCount="indefinite"
+                 values="M10,50 Q80,20 150,50 T290,50;
+                         M10,50 Q80,80 150,50 T290,50;
+                         M10,50 Q80,20 150,50 T290,50"/>
+    </path>
+
+    <!-- Animated Reflection Points -->
+    <circle cx="75" cy="50" r="6" fill="#4CAF50" filter="url(#glow)">
+        <animate attributeName="r"
+                 values="6;8;6"
+                 dur="2s"
+                 repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="225" cy="50" r="6" fill="#4CAF50" filter="url(#glow)">
+        <animate attributeName="r"
+                 values="6;8;6"
+                 dur="2s"
+                 repeatCount="indefinite"
+                 begin="1s"/>
+    </circle>
+
+    <!-- Modern Text Style -->
+    <text x="50%" y="80%"
+          font-family="Arial, sans-serif"
+          font-size="24"
+          font-weight="bold"
+          fill="#4CAF50"
+          text-anchor="middle"
+          filter="url(#glow)">
+        ReflectionPath
+    </text>
+</svg>
