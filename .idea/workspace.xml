@@ -5,31 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c6c5281-d3a4-4ccc-be21-6faae0852f8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pixelib/reflectionpath/ReflectionPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pixelib/reflectionpath/errors/ReflectionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pixelib/reflectionpath/records/ChainedFieldPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pixelib/reflectionpath/records/ChainedMethodPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pixelib/reflectionpath/records/FieldPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pixelib/reflectionpath/records/MethodPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pixelib/reflectionpath/resolution/PathResolutionStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pixelib/reflectionpath/resolution/PathType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pixelib/reflectionpath/resolution/ResolvedPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pixelib/reflectionpath/resolution/TypePathComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dev/pixelib/reflectionpath/ErrorHandlingTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dev/pixelib/reflectionpath/NameBasedTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dev/pixelib/reflectionpath/ResolutionStrategyTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dev/pixelib/reflectionpath/TypeBasedTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dev/pixelib/reflectionpath/models/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dev/pixelib/reflectionpath/models/ConnectionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dev/pixelib/reflectionpath/models/MultiFieldTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dev/pixelib/reflectionpath/models/TestPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/publish.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +43,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
