@@ -10,12 +10,11 @@ It supports both traditional dot-notation and type-based path expressions for ac
 - Two path expression styles:
     - Name-based: `person.address.city`
       - Quick, human readable access to fields and methods
-    - Type-based: `[Player].[ConnectionType]`
+    - Type-based: `[Entity].[Location].[Place]`
       - Easy access to fields and methods by type, to resolve paths dynamically at runtime when you don't know the exact name (e.g. in an obfuscated environment)
 - Array type support: `[Item[]]`
 - Multiple resolution strategies for type-based paths
 - Thread-safe with path caching
-- Comprehensive error handling
 - Superclass member resolution
 
 ## Usage
