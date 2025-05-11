@@ -1,4 +1,6 @@
-![logo](.github/assets/logo.svg)
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/2d4a675b-84c4-45a1-bd9f-a32f643d72d5" height="150" />
+</p>
 
 # ReflectionPath ![branches](.github/badges/branches.svg) ![jacoco coverage](.github/badges/jacoco.svg)
 
